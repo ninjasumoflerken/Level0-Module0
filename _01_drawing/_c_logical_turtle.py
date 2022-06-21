@@ -7,7 +7,7 @@ def get_random_color():
     return "#%06X" % (random.randint(0, 0xFFFFFF))
 
 # ====================== DO NOT EDIT THE CODE ABOVE ===========================
-
+dart = turtle.Turtle
 
 def screen_clicked(x, y):
     print('You pressed: x=' + str(x) + ', y=' + str(y))
